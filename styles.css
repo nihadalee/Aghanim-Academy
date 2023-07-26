@@ -1,0 +1,98 @@
+* {
+  font-family: "Unbounded", cursive;
+}
+
+body {
+  background-color: black;
+}
+
+
+/*section-1-start*/
+.title {
+  font-size: 72px;
+  color: white;
+  max-width: 700px;
+}
+.circle-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
+.circle.left {
+  background-color: aliceblue;
+}
+
+.circle.right {
+  position: absolute;
+  background-color: green;
+  left: 70px;
+  z-index: -2;
+}
+
+.primary-button {
+  border: none;
+  background-color: #b6ccfe;
+  padding: 10px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 100px;
+}
+/*section-1-end*/
+
+/*section-2-start*/
+
+.medium-title{
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+
+}
+
+.information {
+  color: white;
+  font-size: 20px;
+} 
+
+.number {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+
+
+}
+
+.small-text{
+  color: white;
+  font-size: 16px;
+  margin-right: 100px;
+}
+
+.business{
+  display: flex;
+  
+}
+
+.about{
+  max-width: 850px;
+}
+
+/*section-2-end*/
+
+/*section-3-start*/
+.info{
+  max-width: 650px;
+}
+/*section-3-end*/
+
