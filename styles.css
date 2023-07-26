@@ -96,3 +96,34 @@ section {
 }
 /*section-3-end*/
 
+/*section-4-start*/
+.medium-text {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.photo {
+  height: 350px;
+  filter: grayscale();
+  margin-right: 40px;
+}
+
+.team {
+  display: flex;
+}
+/*section-4-end*/
+
+/*section-5-start*/
+
+.enrollment {
+ text-align: center;
+ 
+}
+
+.secondary-button {
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
