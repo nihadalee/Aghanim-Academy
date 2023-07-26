@@ -1,11 +1,17 @@
+:root{
+  font-size: 10px;
+}
+
 * {
   font-family: "Unbounded", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: black;
 }
-
 
 /*section-1-start*/
 .title {
@@ -34,11 +40,13 @@ body {
   left: 70px;
   z-index: -2;
 }
-
-.primary-button {
-  border: none;
-  background-color: #b6ccfe;
+.button {
   padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.primary-button {
+  background-color: #b6ccfe;
 }
 
 .container {
@@ -53,45 +61,46 @@ section {
 
 /*section-2-start*/
 
-.medium-title{
+.medium-title {
   color: white;
   font-size: 48px;
   font-weight: bold;
-
 }
 
 .information {
   color: white;
   font-size: 20px;
-} 
+}
 
 .number {
   color: white;
   font-size: 32px;
   font-weight: bold;
-
-
 }
 
-.small-text{
+.small-text {
   color: white;
   font-size: 16px;
-  margin-right: 100px;
 }
-
-.business{
+.business-title{
+  margin-bottom: 30px;
+}
+.business {
   display: flex;
-  
+  gap: 100px;
 }
 
-.about{
+.about {
   max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /*section-2-end*/
 
 /*section-3-start*/
-.info{
+.info {
   max-width: 650px;
 }
 /*section-3-end*/
@@ -117,13 +126,17 @@ section {
 /*section-5-start*/
 
 .enrollment {
- text-align: center;
- 
+  text-align: center;
 }
 
 .secondary-button {
-  border: none;
   background-color: white;
-  padding: 10px 20px;
-  margin-top: 20px;
 }
+
+.enrollement-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
