@@ -1,4 +1,4 @@
-:root{
+:root {
   font-size: 10px;
 }
 
@@ -8,7 +8,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img {
+  width: 100%;
+}
 .mt50 {
   margin-top: 50px;
 }
@@ -32,7 +34,6 @@
 .mb100 {
   margin-bottom: 100px;
 }
-
 
 body {
   background-color: black;
@@ -115,12 +116,13 @@ section {
   color: white;
   font-size: 16px;
 }
-.business-title{
+.business-title {
   margin-bottom: 30px;
 }
 .business {
   display: flex;
   gap: 100px;
+  flex-wrap: wrap;
 }
 
 .about {
@@ -135,7 +137,6 @@ section {
 /*section-3-start*/
 .info {
   max-width: 650px;
-  
 }
 
 .png-background {
@@ -144,8 +145,6 @@ section {
 /*section-3-end*/
 
 /*section-4-start*/
-
-
 
 .medium-text {
   color: white;
@@ -156,11 +155,17 @@ section {
 .photo {
   height: 350px;
   filter: grayscale();
-  
 }
 
 .team {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team img {
+  object-fit: cover;
 }
 /*section-4-end*/
 
@@ -187,7 +192,7 @@ section {
 
 .customer-comment {
   background-image: url(https://images.unsplash.com/photo-1575806418416-56d3047907fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1554&q=80);
-  
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -206,10 +211,11 @@ section {
 .review-wrapper {
   display: flex;
   gap: 30px;
-} 
+  flex-wrap: wrap;
+}
 
 .review {
-  flex-basis: 50%;
+  flex-basis: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,6 +227,7 @@ section {
 }
 
 .icon {
+  width: 50px;
   height: 50px;
 }
 
@@ -242,6 +249,7 @@ section {
   display: flex;
   flex-direction: row;
   gap: 300px;
+  flex-wrap: wrap;
 }
 
 .company {
@@ -250,13 +258,18 @@ section {
   gap: 20px;
 }
 
+.company .small-text:first-child{
+  color: #b6ccfe;
+}
+
 .copy-right {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social-media {
-height: 20px;
+  height: 20px;
 }
 
 .sm-wrapper {
@@ -266,3 +279,47 @@ height: 20px;
 }
 
 /*footer-section-end*/
+
+/*Responsive Start */
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .medium-title {
+    font-size: 30px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 996px) {
+  .review {
+    flex-basis: 100%;
+    padding: 50px 10px;
+  }
+  .comment{
+    padding: 50px 0;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .copy-right{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .company{
+    align-items: center;
+  }
+}
+/* Laptop */
+@media screen and (max-width: 1200px) {
+}
+
+/*Responsive end */
