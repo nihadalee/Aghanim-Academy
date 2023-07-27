@@ -25,6 +25,14 @@
   margin-top: 20px;
 }
 
+.mt70 {
+  margin-top: 70px;
+}
+
+.mb100 {
+  margin-bottom: 100px;
+}
+
 
 body {
   background-color: black;
@@ -129,6 +137,10 @@ section {
   max-width: 650px;
   
 }
+
+.png-background {
+  background-image: url(https://cdn.wallpapersafari.com/80/38/tvNlGQ.png);
+}
 /*section-3-end*/
 
 /*section-4-start*/
@@ -193,17 +205,18 @@ section {
 
 .review-wrapper {
   display: flex;
-  gap: 100px;
+  gap: 30px;
 } 
 
 .review {
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 60px;
   text-align: center;
   background-color: #0d0d0d4d;
-  padding: 100px;
+  padding: 150px 70px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -216,4 +229,34 @@ section {
   font-size: 12px;
 }
 
+.tech-review {
+  letter-spacing: -0.025em;
+  line-height: 20px;
+}
+
 /*section-7-end*/
+
+/*footer-section-start*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media {
+height: 20px;
+}
+
+/*footer-section-end*/
