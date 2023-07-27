@@ -259,4 +259,10 @@ section {
 height: 20px;
 }
 
+.sm-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
 /*footer-section-end*/
