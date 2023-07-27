@@ -1,0 +1,13 @@
+:root {
+    font-size: 10px;
+  }
+  
+  * {
+    font-family: "Unbounded", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    width: 100%;
+  }

@@ -1,0 +1,67 @@
+:root{
+  --primary-black: #000;
+  --primary-white: #fff; 
+  --primary-red: #840032;
+  --primary-button-bg: #b6ccfe;
+}
+
+
+/* Spacing Classes */
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt70 {
+  margin-top: 70px;
+}
+
+.mb100 {
+  margin-bottom: 100px;
+}
+
+/* Typography classes */
+.title {
+  font-size: 72px;
+  color: var(--primary-white);
+  max-width: 700px;
+}
+
+.medium-title {
+  color: var(--primary-white);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.small-text {
+  color: var(--primary-white);
+  font-size: 16px;
+}
+
+/* Layout classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Components -- Button */
+.button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.primary-button {
+  background-color: var(--primary-button-bg);
+}
