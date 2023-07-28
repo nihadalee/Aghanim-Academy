@@ -35,7 +35,7 @@ img {
   margin-bottom: 100px;
 }
 
-body {
+.home {
   background-color: black;
 }
 
@@ -258,7 +258,7 @@ section {
   gap: 20px;
 }
 
-.company .small-text:first-child{
+.company .small-text:first-child {
   color: #b6ccfe;
 }
 
@@ -298,23 +298,23 @@ section {
     flex-basis: 100%;
     padding: 50px 10px;
   }
-  .comment{
+  .comment {
     padding: 50px 0;
   }
-  .title{
+  .title {
     font-size: 50px;
   }
-  .footer{
+  .footer {
     flex-direction: column;
     align-items: center;
     gap: 100px;
   }
-  .copy-right{
+  .copy-right {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-  .company{
+  .company {
     align-items: center;
   }
 }
@@ -323,3 +323,62 @@ section {
 }
 
 /*Responsive end */
+/*error-page-start*/
+.error-header {
+  font-size: 24px;
+  color: white;
+}
+
+.error-text {
+  font-size: 60px;
+  color: white;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: row;
+  padding: 120px 70px;
+  flex-wrap: wrap;
+
+
+}
+
+.go-back-button {
+  color: white;
+  border-radius: 30px;
+  background-color: black;
+  font-size: 20px;
+}
+
+.homepage-button {
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.error-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.error {
+  background-color: #840032;
+  height: 100vh;
+}
+
+.error-icon {
+  flex-basis: 50%;
+}
+
+/*error-page-end*/
+/*error-page-responsive-start*/
+
