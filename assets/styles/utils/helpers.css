@@ -3,6 +3,9 @@
   --primary-white: #fff; 
   --primary-red: #840032;
   --primary-button-bg: #b6ccfe;
+  --primary-review-bg: #0d0d0d4d;
+  --primary-review-border: rgba(255, 255, 255, 0.1);
+  --primary-text: #b6ccfe;
 }
 
 

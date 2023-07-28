@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: var(--primary-black);
 }
 
 /*section-1-start*/
@@ -41,12 +41,12 @@ section {
 /*section-2-start*/
 
 .information {
-  color: white;
+  color: var(--primary-white);
   font-size: 20px;
 }
 
 .number {
-  color: white;
+  color: var(--primary-white);
   font-size: 32px;
   font-weight: bold;
 }
@@ -82,7 +82,7 @@ section {
 /*section-4-start*/
 
 .medium-text {
-  color: white;
+  color: var(--primary-white);
   font-size: 32px;
   font-weight: bold;
 }
@@ -111,7 +111,7 @@ section {
 }
 
 .secondary-button {
-  background-color: white;
+  background-color: var(--primary-white);
 }
 
 .enrollement-info-wrapper {
@@ -156,9 +156,9 @@ section {
   align-items: center;
   gap: 60px;
   text-align: center;
-  background-color: #0d0d0d4d;
+  background-color: var(--primary-review-bg);
   padding: 150px 70px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--primary-review-border);
 }
 
 .icon {
@@ -167,7 +167,7 @@ section {
 }
 
 .tech-name {
-  color: white;
+  color: var(--primary-white);
   font-size: 12px;
 }
 
@@ -194,7 +194,7 @@ section {
 }
 
 .company .small-text:first-child {
-  color: #b6ccfe;
+  color: var(--primary-text);
 }
 
 .copy-right {

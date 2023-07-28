@@ -2,12 +2,12 @@
 /*error-page-start*/
 .error-header {
     font-size: 24px;
-    color: white;
+    color: var(--primary-white);
   }
   
   .error-text {
     font-size: 60px;
-    color: white;
+    color: var(--primary-white);
   }
   
   .error-page {
@@ -20,16 +20,16 @@
   }
   
   .go-back-button {
-    color: white;
+    color: var(--primary-white);
     border-radius: 30px;
-    background-color: black;
+    background-color: var(--primary-black);
     font-size: 20px;
   }
   
   .homepage-button {
     border-radius: 30px;
-    background-color: white;
-    color: black;
+    background-color: var(--primary-white);
+    color: var(--primary-black);
     font-size: 20px;
   }
   
@@ -58,3 +58,59 @@
   
   /*error-page-end*/
   /*error-page-responsive-start*/
+
+  /*Mobile*/
+  @media screen and (max-width: 576px){
+    .error-text {
+      font-size: 30px;
+    }
+
+    .error-header {
+      font-size: 12px;
+    }
+    
+    .go-back-button {
+      font-size: 10px;
+    }
+
+    .homepage-button {
+      font-size: 10px;
+    }
+
+    .image-wrapper {
+      flex-basis: 100%;
+
+      
+    }
+
+    .error-text-wrapper {
+      flex-basis: 100%;
+    }
+  }
+
+  /*Tablet*/
+  @media screen and (min-width: 576px) and (max-width: 996px){
+    .error-text {
+      font-size: 45px;
+    }
+    
+    .error-header {
+      font-size: 18px;
+    }
+
+    .go-back-button {
+      font-size: 15px;
+    }
+
+    .homepage-button {
+      font-size: 15px;
+    }
+
+    .image-wrapper {
+      flex-basis: 100%;
+    }
+
+      .error-text-wrapper {
+      flex-basis: 100%;
+    }
+  }
