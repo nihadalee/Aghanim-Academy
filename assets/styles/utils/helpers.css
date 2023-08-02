@@ -6,6 +6,11 @@
   --primary-review-bg: #0d0d0d4d;
   --primary-review-border: rgba(255, 255, 255, 0.1);
   --primary-text: #b6ccfe;
+  --primary-blue: #005377;
+  --primary-yellow: #F1A208;
+  --secondary-yellow: #D5C67A;
+  --primary-green: #06A77D;
+  --secondary-blue: #052F5F;
 }
 
 
@@ -67,4 +72,8 @@
 }
 .primary-button {
   background-color: var(--primary-button-bg);
+}
+
+a {
+  text-decoration: none;
 }

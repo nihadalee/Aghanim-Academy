@@ -1,0 +1,251 @@
+:root {
+    font-size: 10px;
+  }
+  
+  * {
+    font-family: "Bowlby One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    width: 100%;
+  }
+
+
+  /*section-1-start*/
+
+  body {
+    background-color: var(--primary-blue);
+  }
+
+  .all-about-us{
+    background-color: var(--primary-yellow);
+  }
+
+  .icon-text{
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+
+  }
+
+  .book-icon {
+  height: 25px;
+  }
+
+  .landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .home-text {
+   color: var(--primary-black);
+   font-size: 16px;
+   font-family: 'Instrument Sans', sans-serif;
+   font-weight: 500;
+  }
+
+  h1 {
+    color: var(--secondary-blue);
+    font-size: 491px;
+    font-weight: 400;
+  }
+
+  .about-us {
+    color: var(--secondary-blue);
+    font-size: 52px;
+    letter-spacing: 110px;
+    font-weight: 500;
+    font-family: 'Instrument Sans', sans-serif;
+   
+  }
+
+  /*section-1-end*/
+
+  /*section-2-start*/
+
+  .welcome {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/174/341/166/dots-pattern-black-and-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h2 {
+    font-size: 48px;
+    color: var(--primary-green);
+    font-weight: 400;
+  }
+
+  .welcome-text {
+    font-size: 20px;
+    color: var(--secondary-yellow);
+    font-weight: 500;
+    font-family: 'Instrument Sans', sans-serif;
+    width: 600px;
+  }
+
+  .welcome-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 0;
+  }
+
+  /*section-2-end*/
+
+  /*section-3-start*/
+
+  .photo {
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 90px;
+    height: 90px;
+  }
+
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 200px;
+  }
+
+  .name {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary-white);
+  }
+
+
+  .position {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-white);
+    font-family: 'Instrument Sans', sans-serif;
+  }
+
+  .member-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /*section-3-end*/
+
+  .quota {
+    background-image: url(https://images.unsplash.com/photo-1593221985357-c83622aa15ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h3 {
+    color: var(--primary-white);
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  .quota-wrapper {
+    display: flex;
+    text-align: center;
+    padding: 150px;
+  }
+
+  /*section-4-end*/
+  /*section-5-start*/
+
+  h4 {
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--secondary-yellow);
+  }
+
+  .info-text {
+    color: var(--primary-white);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Instrument Sans', sans-serif;
+    width: 650px;
+    
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 0;
+  }
+
+  /*section-5-end*/
+  /*section-6-start*/
+
+ h5 {
+   font-size: 48px;
+   font-weight: 400;
+   color: var(--primary-white);
+   width: 650px;
+ }
+
+ .sign-up {
+  border-radius: 8px;
+  color: var(--primary-black);
+  background-color: var(--primary-yellow);
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+ }
+
+  .learn-more {
+  border-radius: 8px;
+  color: var(--primary-black);
+  background-color: var(--secondary-yellow);
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+ }
+
+ .button-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+ }
+
+ .join-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 0px;
+ }
+
+ /*section-6-end*/
+ /*footer-section-start*/
+
+ h6 {
+  color: var(--primary-white);
+  font-size: 570px;
+  font-weight: 400;
+ }
+
+ .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .social-media-icons {
+  height: 30px;
+ }
+
+ .social-media-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 80px;
+ }
+
+ /*footer-section-end*/
